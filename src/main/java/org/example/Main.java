@@ -7,6 +7,8 @@ public class Main {
     String expression = "10 cm + 1 m - 10 mm";
 
     int result = Converter.calculateExpression(expression);
-    System.out.println(result);
+
+    System.out.println(
+        "The result of the expression: -" + expression + "- calculated in mm is: " + result);
   }
 }
